@@ -1,0 +1,42 @@
+<h1 class="sTitle">Contact</h1>
+<div class="scrollWrap">
+    <div class="scrollbar">
+        <div class="track">
+            <div class="thumb">
+                <div class="end"></div>
+            </div>
+        </div>
+    </div>
+    <div class="viewport">
+        <div class="overview">
+            <div class="colS" style="width:212px;">
+                <form method="post" action="contact-send.php" id="cForm">
+                    <div><label for="name">Name (*)</label><input id="name" type="text" name="name" /></div>
+                    <div><label for="email">Email (*)</label><input id="email" type="text" name="email" /></div>
+                    <div><label for="subject">Subject</label><input id="subject" type="text" name="subject" /></div>
+                    <div><label for="form_message">Message (*)</label><textarea id="form_message" rows="10" cols="40" name="message"></textarea></div>
+                    <div><input id="form_submit" type="submit" name="submit" value="Submit" /></div>
+                    <p class="hide" id="response"></p>
+                    <div class="hide">
+                        <label for="spamCheck">Do not fill out this field</label>
+                        <input id="spamCheck" name="spam_check" type="text" value="" />
+                    </div>
+                </form>
+            </div>
+            <div class="colS">
+                <img src="{{ STATIC_URL }}images/gMap.gif" alt="Google Map" />
+            </div>
+            <div class="colS">
+                <h3>Quick Contact</h3>
+                <p>roin tempor neque vel velit faucibus quis sit amet nibh feugiat sed convallis orci ultricies.</p>
+                <p>Address: 123<br />Test Street, Some City<br />
+                    Telephone: 123-456-789<br />
+                    FAX: 987-765-543</p>
+                <p><a href="#" title="contact@testmail.com">contact@testmail.com</a><br />
+                    <a href="#" title="helpdesk@testmail.com">helpdesk@testmail.com</a><br />
+                    <a href="#" title="office@testmail.com">office@testmail.com</a><br />
+                    <a href="#" title="offer@testmail.com">offer@testmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</div>
