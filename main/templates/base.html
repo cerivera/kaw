@@ -46,17 +46,34 @@
         <div class="slide-panel slideHide" id="calendar" style="display: none">
             {% include "_calendar.html" %}
         </div>
+        <div class="slide-panel slideHide" id="thanks" style="display: none">
+            <h1 class="sTitle inlineBlock" style="display:inline-block">Sent!</h1>
+            <div class="scrollWrap">
+                <div class="scrollbar">
+                    <div class="track">
+                        <div class="thumb">
+                            <div class="end"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="viewport">
+                    <div class="comingSoon overview">
+                        <h2>We'll be contacting you soon.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     {% endblock %}
 </div>
 <!-- MENU AND LOGO -->
 <div id="menu">
     <ul>
-        <li><a href="#" class="btn1" title="Dog Walking">Dog Walking</a></li>
-        <li><a href="#" class="btn2" title="Boarding">Boarding</a></li>
-        <li><a href="#" class="btn3" title="Contact Us">Reach Us</a></li>
-        <li><a href="#" class="btn4" title="Gallery">Gallery</a></li>
-        <li><a href="#" class="btn5" title="Meet Us">Meet Us</a></li>
-        <li><a href="#" class="btn6" title="Calendar">Calendar</a></li>
+        <li><a href="#" class="btn1" id="btn1" title="Dog Walking">Dog Walking</a></li>
+        <li><a href="#" class="btn2" id="btn2" title="Boarding">Boarding</a></li>
+        <li><a href="#" class="btn3" id="btn3" title="Reach Us">Reach Us</a></li>
+        <li><a href="#" class="btn4" id="btn4" title="Gallery">Gallery</a></li>
+        <li><a href="#" class="btn5" id="btn5" title="Meet Us">Meet Us</a></li>
+        <li><a href="#" class="btn6" id="btn6" title="Calendar">Calendar</a></li>
     </ul>
 </div>
 <script type="text/javascript">

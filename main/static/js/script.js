@@ -3,6 +3,32 @@ Cufon.replace('h1, h2, h3, h4, h5, h6, #menu ul li, #headernav, .skill .sName', 
 Cufon.replace('.logo, #introText', { color:'#fff', textShadow:'0 1px black' });
 Cufon.replace('caption');
 
+var menuClick = function(id) {
+    $('#introText').fadeOut('slow');
+
+    var whichLink = id.split('n');
+    var linkName = '.slide-panel:eq(' + (whichLink[1] - 1) + ')';
+
+    if (id == 'logo') {
+        $('.slide-panel:eq(0)').hide().removeClass('slideHide').fadeIn(700).siblings().fadeOut(700);
+    }
+    else {
+        $(linkName).hide().removeClass('slideHide').fadeIn(700).siblings().fadeOut(700);
+    }
+
+    $('.scrollWrap').tinyscrollbar();
+
+    // INTERACTIONS AND ADD-ONS
+
+    $("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_square', show_title:false, allow_resize:false});		// PRETTYPHOTO CALLOUT
+
+    $(".pf .overview li a img").hover(function () {                                                            // PORTFOLIO THUMBNAILS HOVER EFFECT
+        $('#' + id).animate({opacity:0.5}, 300);
+    }, function () {
+        $('#' + id).animate({opacity:1}, 300);
+    });
+};
+
 $(document).ready(function () {
 
     $('.pfSliderIn img:not(.active)').css({'display':'none'});
@@ -86,31 +112,7 @@ $(document).ready(function () {
     });
 
     $("#menu ul li a, #menu .logo").click(function () {
-
-        $('#introText').fadeOut('slow');
-        var getClass = $(this).attr('class');
-        var whichLink = getClass.split('n');
-        var linkName = '.slide-panel:eq(' + (whichLink[1] - 1) + ')';
-
-        if (getClass == 'logo') {
-            $('.slide-panel:eq(0)').hide().removeClass('slideHide').fadeIn(700).siblings().fadeOut(700);
-        }
-        else {
-            $(linkName).hide().removeClass('slideHide').fadeIn(700).siblings().fadeOut(700);
-        }
-
-        $('.scrollWrap').tinyscrollbar();
-
-        // INTERACTIONS AND ADD-ONS
-
-        $("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_square', show_title:false, allow_resize:false});		// PRETTYPHOTO CALLOUT
-
-        $(".pf .overview li a img").hover(function () {                                                            // PORTFOLIO THUMBNAILS HOVER EFFECT
-            $(this).animate({opacity:0.5}, 300);
-        }, function () {
-            $(this).animate({opacity:1}, 300);
-        });
-
+        menuClick($(this).attr('id'));
     });
 
     $('.socialMedia li a, #pfSlider li a').tipTip({edgeOffset:10});											// TIP TIP CALLOUT
@@ -181,3 +183,4 @@ $(document).ready(function () {
     });
 
 });
+

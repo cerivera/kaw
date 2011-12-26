@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="added django forms&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/templates/thanks.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/templates/index.html" afterPath="$PROJECT_DIR$/main/templates/base.html" />
+    <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/templates/thanks.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_contact.html" afterPath="$PROJECT_DIR$/main/templates/_contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/js/ajax.js" afterPath="$PROJECT_DIR$/main/static/js/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/js/script.js" afterPath="$PROJECT_DIR$/main/static/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/base.html" afterPath="$PROJECT_DIR$/main/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/ajax.js" afterPath="$PROJECT_DIR$/static/js/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/script.js" afterPath="$PROJECT_DIR$/static/js/script.js" />
     </list>
     <ignored path="kaw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,16 +34,25 @@
       <file leaf-file-name="_contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="364" selection-end="364" vertical-scroll-proportion="-7.4583335">
+            <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/static/js/ajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="89" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="78" selection-start="679" selection-end="679" vertical-scroll-proportion="0.6081081">
+            <state line="11" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -49,10 +60,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thanks.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/templates/thanks.html">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="38" selection-start="876" selection-end="876" vertical-scroll-proportion="-13.75">
+            <state line="104" column="20" selection-start="3606" selection-end="3606" vertical-scroll-proportion="3.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="33" selection-start="5302" selection-end="5302" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="34" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,10 +96,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="8" selection-start="1678" selection-end="1770" vertical-scroll-proportion="-3.7083333">
+            <state line="52" column="39" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.5842217">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_calendar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/_calendar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -79,7 +117,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/main/static/css/prettyPhoto.css" />
-        <option value="$PROJECT_DIR$/main/static/js/script.js" />
         <option value="$PROJECT_DIR$/main/templates/_calendar.html" />
         <option value="$PROJECT_DIR$/main/templates/_gallery.html" />
         <option value="$PROJECT_DIR$/main/templates/_walking.html" />
@@ -110,12 +145,15 @@
         <option value="$PROJECT_DIR$/main/templates/_boarding.html" />
         <option value="$PROJECT_DIR$/main/forms.py" />
         <option value="$PROJECT_DIR$/main/static/css/style.css" />
-        <option value="$PROJECT_DIR$/main/templates/_contact.html" />
         <option value="$PROJECT_DIR$/main/templates/index.html" />
-        <option value="$PROJECT_DIR$/main/templates/base.html" />
         <option value="$PROJECT_DIR$/main/templates/thanks.html" />
         <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/main/templates/_contact.html" />
         <option value="$PROJECT_DIR$/main/views.py" />
+        <option value="$PROJECT_DIR$/main/static/js/script.js" />
+        <option value="$PROJECT_DIR$/main/static/js/ajax.js" />
+        <option value="$PROJECT_DIR$/main/templates/base.html" />
       </list>
     </option>
   </component>
@@ -221,9 +259,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="217" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="234" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="222" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="239" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1147" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1148" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="237" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="232" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -396,7 +450,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -439,7 +493,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added django forms&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="sending emails" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -456,21 +510,13 @@
     <MESSAGE value="added calendar place holder" />
     <MESSAGE value="Added boarding content" />
     <MESSAGE value="added django forms&#10;" />
+    <MESSAGE value="added thanks page" />
+    <MESSAGE value="sending emails" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="28" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/cufon-yui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="62" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
@@ -511,27 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="428" selection-end="428" vertical-scroll-proportion="0.42510122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="364" selection-end="364" vertical-scroll-proportion="-7.4583335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="1678" selection-end="1770" vertical-scroll-proportion="-3.7083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="2268" vertical-scroll-proportion="-0.0">
@@ -539,26 +564,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/thanks.html">
+    <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="876" selection-end="876" vertical-scroll-proportion="-13.75">
+        <state line="11" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="147" column="34" selection-start="5022" selection-end="5022" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="33" selection-start="5302" selection-end="5302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="20" selection-start="3606" selection-end="3606" vertical-scroll-proportion="3.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="78" selection-start="679" selection-end="679" vertical-scroll-proportion="0.6081081">
+        <state line="11" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="89" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1108" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="245" selection-end="245" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="39" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.5842217">
+          <folding />
         </state>
       </provider>
     </entry>
