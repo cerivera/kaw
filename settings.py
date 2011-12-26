@@ -142,3 +142,7 @@ LOGGING = {
         },
     }
 }
+
+
+#INFO_EMAIL = 'info@keepatxwaggin.com'
+INFO_EMAIL = 'rivera.utx@gmail.com'

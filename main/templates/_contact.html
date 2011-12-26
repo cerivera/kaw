@@ -10,7 +10,8 @@
     <div class="viewport">
         <div class="overview">
             <div class="colS" style="width:212px;">
-                <form method="post" action="/cform_submit" id="cForm">
+                <form method="post" action="/cform_submit/" id="cForm">
+                    {% csrf_token %}
                     {{ contact_form.as_p }}
                     <div><input id="form_submit" type="submit" name="submit" value="Submit" /></div>
                     <p class="hide" id="response"></p>
