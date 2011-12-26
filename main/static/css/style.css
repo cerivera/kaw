@@ -94,9 +94,9 @@ ul.dotList li {
 }
 .conImg {
 	border:3px solid #f4f4f4;
-	float:left;	
-	display:block;
-	margin:0 10px 5px 0;
+    display: block;
+	margin:0 auto 20px auto;
+    width: 300px;
 }
 p {
 	margin-bottom:10px;
@@ -588,4 +588,21 @@ ul.clients li a {
 }
 .scrollWrap .disable{ 
 	display: none; 
+}
+
+.clear {
+    clear: both;
+}
+
+img.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    border:3px solid #f4f4f4;
+}
+
+p.indent {
+    text-indent:25px;
 }
