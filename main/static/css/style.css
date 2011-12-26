@@ -497,13 +497,13 @@ ul.clients li a {
 
 /* CONTACT */
 
-#cForm div {
+#cForm p {
     margin-bottom: 5px;
     clear: both;
     float: left;
 }
 
-#cForm div label {
+#cForm p label {
     display: block;
     width: 100%;
     font-size: 11px;
@@ -511,7 +511,7 @@ ul.clients li a {
     float: left;
 }
 
-#cForm div input[type=text], #cForm textarea {
+#cForm p input[type=text], #cForm textarea {
     background: #000;
     border: 1px solid #333;
     color: #f4f4f4;
@@ -520,25 +520,25 @@ ul.clients li a {
     margin-bottom: 5px;
 }
 
-#cForm div input[type=text] {
+#cForm p input[type=text] {
     height: 24px;
     width: 180px;
     padding: 0 30px 0 0;
 }
 
-#cForm div textarea {
+#cForm p textarea {
     height: 96px;
     width: 210px;
     margin: 0;
     padding: 0;
 }
 
-#cForm div input[type=text]:hover, #cForm textarea:hover {
+#cForm p input[type=text]:hover, #cForm textarea:hover {
     border: 1px solid #666;
     background: #000;
 }
 
-#cForm div input[type=text]:focus {
+#cForm p input[type=text]:focus {
     border: 1px solid #303030;
     background: #0f0f0f;
 }

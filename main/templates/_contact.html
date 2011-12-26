@@ -11,10 +11,7 @@
         <div class="overview">
             <div class="colS" style="width:212px;">
                 <form method="post" action="contact-send.php" id="cForm">
-                    <div><label for="name">Name (*)</label><input id="name" type="text" name="name" /></div>
-                    <div><label for="email">Email (*)</label><input id="email" type="text" name="email" /></div>
-                    <div><label for="subject">Subject</label><input id="subject" type="text" name="subject" /></div>
-                    <div><label for="form_message">Message (*)</label><textarea id="form_message" rows="10" cols="40" name="message"></textarea></div>
+                    {{ contact_form.as_p }}
                     <div><input id="form_submit" type="submit" name="submit" value="Submit" /></div>
                     <p class="hide" id="response"></p>
                     <div class="hide">
