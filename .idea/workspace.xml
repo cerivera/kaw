@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="added meetus page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/templates/_calendar.html" />
+    <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="Added boarding content">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/css/style.css" afterPath="$PROJECT_DIR$/main/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_boarding.html" afterPath="$PROJECT_DIR$/main/templates/_boarding.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_contact.html" afterPath="$PROJECT_DIR$/main/templates/_contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/index.html" afterPath="$PROJECT_DIR$/main/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_gallery.html" afterPath="$PROJECT_DIR$/main/templates/_gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_meetus.html" afterPath="$PROJECT_DIR$/main/templates/_meetus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_walking.html" afterPath="$PROJECT_DIR$/main/templates/_walking.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
     </list>
     <ignored path="kaw.iws" />
@@ -30,10 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="593" column="16" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.34375">
+            <state line="683" column="17" selection-start="10554" selection-end="10554" vertical-scroll-proportion="-12.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_meetus.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/_meetus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="18" selection-start="554" selection-end="554" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -42,7 +52,16 @@
       <file leaf-file-name="_contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="52" selection-start="957" selection-end="957" vertical-scroll-proportion="-10.625">
+            <state line="27" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-14.958333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_gallery.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/templates/_gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="40" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -51,7 +70,7 @@
       <file leaf-file-name="_walking.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="6" selection-start="124" selection-end="2228" vertical-scroll-proportion="-16.291666">
+            <state line="16" column="18" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.5416665">
               <folding />
             </state>
           </provider>
@@ -75,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_boarding.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_boarding.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/templates/_boarding.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="73" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.0">
+            <state line="24" column="22" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.74844074">
               <folding />
             </state>
           </provider>
@@ -103,15 +122,15 @@
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/main/static/css/prettyPhoto.css" />
-        <option value="$PROJECT_DIR$/main/templates/_gallery.html" />
         <option value="$PROJECT_DIR$/main/static/js/script.js" />
-        <option value="$PROJECT_DIR$/main/templates/_meetus.html" />
-        <option value="$PROJECT_DIR$/main/templates/_walking.html" />
-        <option value="$PROJECT_DIR$/main/templates/_contact.html" />
         <option value="$PROJECT_DIR$/main/templates/index.html" />
-        <option value="$PROJECT_DIR$/main/templates/_boarding.html" />
         <option value="$PROJECT_DIR$/main/templates/_calendar.html" />
+        <option value="$PROJECT_DIR$/main/templates/_contact.html" />
+        <option value="$PROJECT_DIR$/main/templates/_gallery.html" />
+        <option value="$PROJECT_DIR$/main/templates/_walking.html" />
         <option value="$PROJECT_DIR$/main/static/css/style.css" />
+        <option value="$PROJECT_DIR$/main/templates/_meetus.html" />
+        <option value="$PROJECT_DIR$/main/templates/_boarding.html" />
       </list>
     </option>
   </component>
@@ -490,7 +509,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added meetus page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added calendar place holder" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -504,6 +523,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="added meetus page" />
+    <MESSAGE value="added calendar place holder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -522,11 +542,6 @@
     <entry file="file://$PROJECT_DIR$/main/static/css/prettyPhoto.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="792" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="304" selection-end="304" vertical-scroll-proportion="0.27322406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/images/bg2.jpg">
@@ -554,37 +569,9 @@
         <state line="6" column="62" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_meetus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="503" selection-end="528" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="29" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="6" selection-start="124" selection-end="2228" vertical-scroll-proportion="-16.291666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_boarding.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="73" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="957" selection-end="957" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
@@ -596,9 +583,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="1486" selection-end="1486" vertical-scroll-proportion="-14.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.5416665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="593" column="16" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.34375">
+        <state line="683" column="17" selection-start="10554" selection-end="10554" vertical-scroll-proportion="-12.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_meetus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="554" selection-end="554" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_boarding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.74844074">
           <folding />
         </state>
       </provider>
