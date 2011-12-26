@@ -6,11 +6,6 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     url(r'^$', 'kaw.main.views.index'),
-    # url(r'^kaw/', include('kaw.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+    url(r'^cform_submit/', 'kaw.main.views.cform_submit'),
+    url(r'^thanks/', 'kaw.main.views.thanks')
 )

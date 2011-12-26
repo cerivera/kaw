@@ -27,24 +27,26 @@
     </div>
 </div>
 <div id="content">
-    <div class="slide-panel" id="home">
-        {% include "_walking.html" %}
-    </div>
-    <div class="slide-panel slideHide" id="boarding" style="display: none">
-        {% include "_boarding.html" %}
-    </div>
-    <div class="slide-panel slideHide" id="contact" style="display: none">
-        {% include "_contact.html" %}
-    </div>
-    <div class="slide-panel pf slideHide" id="portfolio" style="display: none">
-        {% include "_gallery.html" %}
-    </div>
-    <div class="slide-panel slideHide" id="aboutus" style="display: none">
-        {% include "_meetus.html" %}
-    </div>
-    <div class="slide-panel slideHide" id="calendar" style="display: none">
-        {% include "_calendar.html" %}
-    </div>
+    {% block content %}
+        <div class="slide-panel" id="home">
+            {% include "_walking.html" %}
+        </div>
+        <div class="slide-panel slideHide" id="boarding" style="display: none">
+            {% include "_boarding.html" %}
+        </div>
+        <div class="slide-panel slideHide" id="contact" style="display: none">
+            {% include "_contact.html" %}
+        </div>
+        <div class="slide-panel pf slideHide" id="portfolio" style="display: none">
+            {% include "_gallery.html" %}
+        </div>
+        <div class="slide-panel slideHide" id="aboutus" style="display: none">
+            {% include "_meetus.html" %}
+        </div>
+        <div class="slide-panel slideHide" id="calendar" style="display: none">
+            {% include "_calendar.html" %}
+        </div>
+    {% endblock %}
 </div>
 <!-- MENU AND LOGO -->
 <div id="menu">
