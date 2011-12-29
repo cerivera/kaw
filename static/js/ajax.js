@@ -8,7 +8,7 @@ $(function () {
         var csrf = $('input[name=csrfmiddlewaretoken]').val();
         response_text.hide();
 
-        //response_text.html('Sending...').show();
+        response_text.html('Sending...').show();
 
         $.post('/cform_submit/', {name:input_name, email:input_email, subject:input_subject, message:input_message, csrfmiddlewaretoken: csrf}, function (data) {
             //response_text.html(data);
