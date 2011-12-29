@@ -57,7 +57,9 @@ $(document).ready(function () {
 
     var slideshowSpeed = 10000;
     var photos = [
-        {"image":"bg_boozer_bw.jpg"}, {"image": "bg_natty_bw.jpg"},{"image": "prada2_bw.jpg"}
+        {"image":"bg1.jpg"},{"image": "bg2.jpg"},{"image":"bg3.jpg"},{"image":"bg4.jpg"},
+        {"image":"bg5.jpg"},{"image": "bg6.jpg"},{"image":"bg7.jpg"},{"image":"bg8.jpg"},
+        {"image":"bg9.jpg"},{"image":"bg10.jpg"},{"image":"bg11.jpg"},{"image":"bg12.jpg"}
     ];
     var interval;
     var activeContainer = 1;
@@ -82,7 +84,7 @@ $(document).ready(function () {
     var showImage = function (photoObject, currentContainer, activeContainer) {
         animating = true;
         currentZindex--;
-        $("#headerimg" + activeContainer).css({ "background-image":"url(/static/images/" + photoObject.image + ")", "display":"block", "z-index":currentZindex });
+        $("#headerimg" + activeContainer).css({ "background-image":"url(/static/images/dogs/bgs/" + photoObject.image + ")", "display":"block", "z-index":currentZindex });
         $("#headerimg" + currentContainer).fadeOut(4000, function () {
             setTimeout(function () {
                 animating = false;
