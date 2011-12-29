@@ -1,5 +1,11 @@
 # Django settings for kaw project.
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'server@keepatxwaggin.com'
+EMAIL_HOST_PASSWORD = 'TCbYP4a9j3K4oX'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 

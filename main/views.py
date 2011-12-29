@@ -19,7 +19,7 @@ def cform_submit(request):
             message = form.cleaned_data['message']
             name = form.cleaned_data['name']
             from_email = form.cleaned_data['email']
-            send_mail(name + ': ' + subject, message, from_email, [settings.INFO_EMAIL])
+            send_mail(name + ': ' + subject, message + ' - ' + from_email, from_email, [settings.INFO_EMAIL])
             return HttpResponse("Thanks!", content_type="text/plain")
 
     return HttpResponse("")
