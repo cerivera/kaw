@@ -197,6 +197,7 @@ a:hover {
     top: 50%;
     margin-top: -250px;
     background: url(/static/images/contentBg.png) repeat-x;
+    background-size: 100%
     /*background-color: #333333;*/
 }
 
@@ -627,7 +628,7 @@ ul.clients li a {
 
 .scrollWrap .viewport {
     width: 900px;
-    height: 380px;
+    height: 440px;
     overflow: hidden;
     position: relative;
 }
@@ -696,6 +697,8 @@ p.floatRight {
 p.price {
     font-size: 20px;
     font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 25px;
 }
 
 p.mission {
@@ -706,4 +709,8 @@ p.mission {
 
 p.mission b {
     font-size: 18px;
+}
+
+p.priceable {
+    margin-bottom: 0px;
 }

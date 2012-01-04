@@ -39,7 +39,7 @@ $(document).ready(function () {
     $('.slide-panel').css({'height':'500px'});
     $('.slide-panel').css({'position':'absolute'});
     $('.slide-panel').css({'left':'' + parseFloat(($(document).width() / 2) - 490) + 'px'});
-    $('.slide-panel').css({'height':'440px'});
+    $('.slide-panel').css({'height':'500px'});
     $('.scrollWrap').tinyscrollbar();
 
     window.onresize = resizeWindow;
