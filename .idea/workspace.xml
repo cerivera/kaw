@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg1.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg10.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg11.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg12.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg2.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg3.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg4.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg5.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg6.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg7.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg8.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg9.jpg" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/css/style.css" afterPath="$PROJECT_DIR$/main/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
     </list>
     <ignored path="kaw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +29,16 @@
       <file leaf-file-name="_walking.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="635" selection-end="644" vertical-scroll-proportion="-4.591837">
+            <state line="6" column="39" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="700" column="24" selection-start="10746" selection-end="10746" vertical-scroll-proportion="-9.84">
+            <state line="198" column="45" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.51559633">
               <folding />
             </state>
           </provider>
@@ -70,7 +61,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="81" selection-start="3295" selection-end="3295" vertical-scroll-proportion="-22.125">
+            <state line="67" column="81" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,16 +70,16 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="-7.2">
+            <state line="23" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sitting.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_sitting.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_sitting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="698" selection-end="698" vertical-scroll-proportion="0.41133454">
+            <state line="15" column="38" selection-start="698" selection-end="698" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -106,7 +97,7 @@
       <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="7" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +106,7 @@
       <file leaf-file-name="_mission.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_mission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="86" selection-start="893" selection-end="893" vertical-scroll-proportion="-3.6734693">
+            <state line="12" column="86" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,8 +141,8 @@
         <option value="$PROJECT_DIR$/main/templates/_mission.html" />
         <option value="$PROJECT_DIR$/main/static/js/script.js" />
         <option value="$PROJECT_DIR$/main/templates/_walking.html" />
-        <option value="$PROJECT_DIR$/main/static/css/style.css" />
         <option value="$PROJECT_DIR$/main/templates/_sitting.html" />
+        <option value="$PROJECT_DIR$/main/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -238,10 +229,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1145" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1146" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="237" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="232" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -274,25 +265,6 @@
       <option name="MULTIPROCESS" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="kaw" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,6 +284,25 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
       <option name="launchJavascriptDebuger" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="kaw" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -404,23 +395,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1698821" sideWeight="0.67216724" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17202573" sideWeight="0.6710671" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40088105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,60 +488,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/_gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
+        <state line="14" column="6" selection-start="415" selection-end="415" vertical-scroll-proportion="-8.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/cufon-yui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="43" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/css/tipTip.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="413" selection-end="414" vertical-scroll-proportion="-17.0">
-          <folding />
-        </state>
+        <state line="30" column="14" selection-start="413" selection-end="414" vertical-scroll-proportion="-17.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/_calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="428" selection-end="428" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/jquery.tinyscrollbar.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="81" selection-start="3295" selection-end="3295" vertical-scroll-proportion="-22.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_mission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="86" selection-start="893" selection-end="893" vertical-scroll-proportion="-3.6734693">
-          <folding />
-        </state>
+        <state line="14" column="6" selection-start="428" selection-end="428" vertical-scroll-proportion="-8.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/images/bg_natty_bw.jpg">
@@ -563,30 +516,56 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="81" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="-7.2">
+        <state line="23" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
+    <entry file="file://$PROJECT_DIR$/main/static/js/jquery.tinyscrollbar.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="635" selection-end="644" vertical-scroll-proportion="-4.591837">
-          <folding />
-        </state>
+        <state line="3" column="33" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/main/templates/_mission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="700" column="24" selection-start="10746" selection-end="10746" vertical-scroll-proportion="-9.84">
+        <state line="12" column="86" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/_sitting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="698" selection-end="698" vertical-scroll-proportion="0.41133454">
+        <state line="15" column="38" selection-start="698" selection-end="698" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/templates/_walking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="39" selection-start="276" selection-end="276" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="45" selection-start="2944" selection-end="2944" vertical-scroll-proportion="0.51559633">
           <folding />
         </state>
       </provider>
