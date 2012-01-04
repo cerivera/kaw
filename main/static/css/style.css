@@ -687,3 +687,23 @@ img.profile {
 p.indent {
     text-indent: 25px;
 }
+
+p.floatRight {
+    float: right;
+
+}
+
+p.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.mission {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p.mission b {
+    font-size: 18px;
+}

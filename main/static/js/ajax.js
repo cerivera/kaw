@@ -13,7 +13,7 @@ $(function () {
         $.post('/cform_submit/', {name:input_name, email:input_email, subject:input_subject, message:input_message, csrfmiddlewaretoken: csrf}, function (data) {
             //response_text.html(data);
             $('#cForm').get(0).reset();
-            menuClick('btn7');
+            menuClick('btn'+$('.slide-panel').length);
         });
 
         return false;

@@ -29,22 +29,16 @@
 <div id="content">
     {% block content %}
         <div class="slide-panel" id="home">
+            {% include "_mission.html" %}
+        </div>
+        <div class="slide-panel slideHide" id="walking" style="display: none;">
             {% include "_walking.html" %}
         </div>
         <div class="slide-panel slideHide" id="boarding" style="display: none">
-            {% include "_boarding.html" %}
+            {% include "_sitting.html" %}
         </div>
         <div class="slide-panel slideHide" id="contact" style="display: none">
             {% include "_contact.html" %}
-        </div>
-        <div class="slide-panel pf slideHide" id="portfolio" style="display: none">
-            {% include "_gallery.html" %}
-        </div>
-        <div class="slide-panel slideHide" id="aboutus" style="display: none">
-            {% include "_meetus.html" %}
-        </div>
-        <div class="slide-panel slideHide" id="calendar" style="display: none">
-            {% include "_calendar.html" %}
         </div>
         <div class="slide-panel slideHide" id="thanks" style="display: none">
             <h1 class="sTitle inlineBlock" style="display:inline-block">Sent!</h1>
@@ -68,12 +62,10 @@
 <!-- MENU AND LOGO -->
 <div id="menu">
     <ul>
-        <li><a href="#" class="btn1" id="btn1" title="Dog Walking">Dog Walking</a></li>
-        <li><a href="#" class="btn2" id="btn2" title="Boarding">Boarding</a></li>
-        <li><a href="#" class="btn3" id="btn3" title="Reach Us">Reach Us</a></li>
-        <li><a href="#" class="btn4" id="btn4" title="Gallery">Gallery</a></li>
-        <li><a href="#" class="btn5" id="btn5" title="Meet Us">Meet Us</a></li>
-        <li><a href="#" class="btn6" id="btn6" title="Calendar">Calendar</a></li>
+        <li><a href="#" class="btn1" id="btn1" title="Our Mission">Our Mission</a></li>
+        <li><a href="#" class="btn2" id="btn2" title="Dog Walking">Dog Walking</a></li>
+        <li><a href="#" class="btn3" id="btn3" title="Pet Sitting">Pet Sitting</a></li>
+        <li><a href="#" class="btn4" id="btn4" title="Reach Us">Reach Us</a></li>
     </ul>
 </div>
 <script type="text/javascript">
