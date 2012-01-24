@@ -121,6 +121,10 @@ ul.dotList li {
     width: 300px;
 }
 
+.white-border {
+    border: 3px solid #f4f4f4;
+}
+
 p {
     margin-bottom: 10px;
     line-height: 1.3em;
