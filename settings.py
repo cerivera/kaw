@@ -152,3 +152,8 @@ LOGGING = {
 
 #INFO_EMAIL = 'info@keepatxwaggin.com'
 INFO_EMAIL = 'info@keepatxwaggin.com'
+
+try:
+    from settings_local import *
+except:
+    pass
