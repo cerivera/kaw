@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f47730fc-c72a-408f-988c-c729bbbe7eeb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/boozer2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/natty1-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/natty1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/natty2-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/natty2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/prada1-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/prada1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/prada2-blur.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/static/images/dogs/bgs/prada2.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/static/images/dogs/bgs/bg9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/static/js/script.js" afterPath="$PROJECT_DIR$/main/static/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/templates/_mission.html" afterPath="$PROJECT_DIR$/main/templates/_mission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/script.js" afterPath="$PROJECT_DIR$/static/js/script.js" />
     </list>
     <ignored path="kaw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +88,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="8" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.7894737">
+            <state line="61" column="25" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.629562">
               <folding />
             </state>
           </provider>
@@ -106,7 +124,7 @@
       <file leaf-file-name="_mission.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/_mission.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="6" selection-start="1928" selection-end="1928" vertical-scroll-proportion="-16.875">
+            <state line="16" column="41" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -147,10 +165,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
     <option name="y" value="25" />
-    <option name="width" value="1926" />
-    <option name="height" value="1058" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,7 +255,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,12 +325,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="profiles" />
+              <option name="myItemId" value="dogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,19 +562,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="25" width="1926" height="1058" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3429487" sideWeight="0.6721491" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3386924" sideWeight="0.6710671" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40088105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32785088" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -532,7 +619,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="new bg image" />
+    <option name="LAST_COMMIT_MESSAGE" value="new bg images" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -553,6 +640,7 @@
     <MESSAGE value="sending emails" />
     <MESSAGE value="refactoring from sarah" />
     <MESSAGE value="new bg image" />
+    <MESSAGE value="new bg images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,6 +676,16 @@
         <state line="6" column="39" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="695" column="0" selection-start="10644" selection-end="10644" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="18" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/images/bg_natty_bw.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -618,30 +716,16 @@
         <state line="17" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="18" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/templates/_mission.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="1928" selection-end="1928" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="695" column="0" selection-start="10644" selection-end="10644" vertical-scroll-proportion="0.0">
+        <state line="16" column="41" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="8" selection-start="2291" selection-end="2291" vertical-scroll-proportion="0.7894737">
+        <state line="61" column="25" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.629562">
           <folding />
         </state>
       </provider>

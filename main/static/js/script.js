@@ -57,9 +57,9 @@ $(document).ready(function () {
 
     var slideshowSpeed = 10000;
     var photos = [
-        {"image":"bg1.jpg"},{"image": "bg2.jpg"},{"image":"bg3.jpg"},
-        {"image":"bg7.jpg"},{"image":"bg8.jpg"},
-        {"image":"bg9.jpg"},{"image":"bg10.jpg"},{"image":"bg11.jpg"},{"image":"bg12.jpg"}
+        {"image":"prada1.jpg"}, {"image":"prada2-blur.jpg"},
+        {"image":"natty1-blur.jpg"}, {"image":"natty2-blur.jpg"},
+        {"image":"boozer2.jpg"}
     ];
     var interval;
     var activeContainer = 1;
