@@ -4,13 +4,23 @@ img {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    margin-top: 38px;
+ }
+
+.header {
+   margin-top: 55px;
+   margin-bottom: 10px;
 }
 
-.page-header {
-    text-align: center;
+.green{
+    color: #10A310;
 }
 
-.sarah-pics img{
+h1 small.price{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.center{
     text-align: center;
 }

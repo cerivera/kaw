@@ -17,49 +17,81 @@
         </a>
         <ul class="nav">
           <li class="active">
-            <a href="#">Our Mission</a>
+            <a href="#our-mission">Our Mission</a>
           </li>
-          <li><a href="#">Dog Walking</a></li>
-          <li><a href="#">Pet Sitting</a></li>
-          <li><a href="#">Reach Us</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="#dog-walking">Dog Walking</a></li>
+          <li><a href="#pet-sitting">Pet Sitting</a></li>
+          <li><a href="#about-us">Reach Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="container">
-    <div class="page-header">
-      <img class="header-img" src="{{ STATIC_URL }}img/dogs/headers/natty2-blur.jpg" />
-      <h2>Belly rubs, treats, and fetch are our expertise.  Let us take a load off your paws.</h2>
+    <div class="row header">
+      <div class="span12">
+        <img class="header-img" src="{{ STATIC_URL }}img/dogs/headers/natty2-blur.jpg" />
+        <h2>Belly rubs, treats, and fetch are our expertise.  Let us take a load off your paws.</h2>
+      </div>
     </div>
-    <div class="hero-unit">
+    <div class="hero-unit" id="our-mission">
       <h1>Our Mission</h1>
       <p>
         <strong>Keep Austin Waggin</strong> was born through the understanding of how important it is to keep your pet <em>happy</em> and <em>healthy</em>. We will provide you peace of mind and your dog plenty of attention to suit his or her needs. Every dog is <em>unique</em> and we look forward to sitting down with you to discuss their personality.
       </p>
     </div>
+    <div class="page-header" id="dog-walking">
+      <h1>
+        Daily Relief Walks<small class="green price">$15</small>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h3>Have a busy day?  Let us help!</h3>
+        <p>Home visit for a minimum of 30-minutes for a leashed outing. Your pet will be able to stretch their legs, get some fresh air and have a potty break. Basic needs will also be taken care of on a case by case basis. (ex. refilling water bowl, treat reward, etc.)</p>
+        <p><em>*add $5 for holiday services Easter, 4th of July, Labor Day, Thanksgiving, Christmas Eve/Day, New Year’s Eve/Day</em></p>
+        <div class="center"><img src="{{ STATIC_URL }}img/dogs/riley.jpg" /></div>
+      </div>
+      <div class="span6">
+        <h3>FAQ</h3>
+        <dl>
+          <dt>Where will you be walking my dog?</dt>
+          <dd>Your pet will be taken on a leashed walk within a one to two mile radius of your home.</dd>
+          <dt>What is your experience with different size dogs?</dt>
+          <dd>We have a variety of experience from tea cup to large breed but do not anticipate walking more than two large breeds at a time. (50 lbs. & up) This is for our safety and your pets'.</dd>
+          <dt>What vaccinations does my dog require?</dt>
+          <dd>Bordatella, Rabies & Distemper</dd>
+          <dt>Does my pet need to be spayed/neutered?</dt>
+          <dd>Yes.</dd>
+          <dt>Is Keep Austin Waggin' insured?</dt>
+          <dd>Yes.  We are insured by Kennel Pro.</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="page-header" id="about-us">
+      <h1>More About Us</h1>
+    </div>
     <div class="row">
       <div class="span12">
-        <h1>Sarah</h1>
         <p>Sarah is a native of South Texas, UT college graduate and boxer enthusiast. She has owned a variety of dogs ranging from chihuahas to boxers to pitbulls, and is studying at ACC to be a certified veterinary assistant.</p>
       </div>
     </div>
     <div class="row sarah-pics">
-      <div class="span4">
-        <p>
+      <div class="span4 center">
           <img src="{{ STATIC_URL }}img/profiles/sarah/doglady.jpg" />
-        </p>
       </div>
-      <div class="span4">
-        <p>
+      <div class="span4 center">
           <img src="{{ STATIC_URL }}img/profiles/sarah/doglady-2.jpg" />
-        </p>
       </div>
-      <div class="span4">
-        <p>
+      <div class="span4 center">
           <img src="{{ STATIC_URL }}img/profiles/sarah/doglady-3.jpg" />
-        </p>
       </div>
+    </div>
+    <div class="page-header" id="pet-sitting">
+      <h1>Pet Sitting</h1>
+    </div>
+    <div class="page-header" id="gallery">
+      <h1>Gallery</h1>
     </div>
   </div>
 </body>
