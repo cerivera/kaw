@@ -15,8 +15,7 @@ img {
     color: #10A310;
 }
 
-h1 small.price{
-    margin-left: 20px;
+.price{
     font-weight: bold;
     font-size: 23px;
 }

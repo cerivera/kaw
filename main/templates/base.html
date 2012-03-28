@@ -22,7 +22,6 @@
           <li><a href="#dog-walking">Dog Walking</a></li>
           <li><a href="#pet-sitting">Pet Sitting</a></li>
           <li><a href="#about-us">Reach Us</a></li>
-          <li><a href="#gallery">Gallery</a></li>
         </ul>
       </div>
     </div>
@@ -40,15 +39,18 @@
         <strong>Keep Austin Waggin</strong> was born through the understanding of how important it is to keep your pet <em>happy</em> and <em>healthy</em>. We will provide you peace of mind and your dog plenty of attention to suit his or her needs. Every dog is <em>unique</em> and we look forward to sitting down with you to discuss their personality.
       </p>
     </div>
+    
+    <!-- DOG WALKING -->
     <div class="page-header" id="dog-walking">
       <h1>
-        Daily Relief Walks<small class="green price">$15</small>
+        Daily Relief Walks <small>Have a busy day?  Let us help!</small>
       </h1>
     </div>
     <div class="row">
       <div class="span6">
-        <h3>Have a busy day?  Let us help!</h3>
+        <h3>Services</h3>
         <p>Home visit for a minimum of 30-minutes for a leashed outing. Your pet will be able to stretch their legs, get some fresh air and have a potty break. Basic needs will also be taken care of on a case by case basis. (ex. refilling water bowl, treat reward, etc.)</p>
+        <p class="green price">$15</p>
         <p><em>*add $5 for holiday services Easter, 4th of July, Labor Day, Thanksgiving, Christmas Eve/Day, New Year’s Eve/Day</em></p>
         <div class="center"><img src="{{ STATIC_URL }}img/dogs/riley.jpg" /></div>
       </div>
@@ -57,17 +59,117 @@
         <dl>
           <dt>Where will you be walking my dog?</dt>
           <dd>Your pet will be taken on a leashed walk within a one to two mile radius of your home.</dd>
+
           <dt>What is your experience with different size dogs?</dt>
           <dd>We have a variety of experience from tea cup to large breed but do not anticipate walking more than two large breeds at a time. (50 lbs. & up) This is for our safety and your pets'.</dd>
+
           <dt>What vaccinations does my dog require?</dt>
           <dd>Bordatella, Rabies & Distemper</dd>
+
           <dt>Does my pet need to be spayed/neutered?</dt>
           <dd>Yes.</dd>
+
           <dt>Is Keep Austin Waggin' insured?</dt>
           <dd>Yes.  We are insured by Kennel Pro.</dd>
         </dl>
       </div>
     </div>
+
+    <!-- PET SITTING -->
+    <div class="page-header" id="pet-sitting">
+      <h1>
+        Pet Sitting <small>Going out of town?  We have two options to fit your pet's personality.</small>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="span6">
+        <h3>Services</h3>
+        <p>For In-Home Visits and Boarding initial meeting is at no cost. This is to insure your pet is comfortable with our staff and to design a plan that is tailored to your pets needs.</p>
+        
+        <h3>In-home visit</h3>
+        <p>Home visit for a minimum of 30-minutes to check-in on pets. When applicable, visits include play time, feeding, cage-cleaning, yard waste clean-up, and home security check.</p>
+        <p class="green price">$15</p>
+        <p><em>*add $5 for holiday services Easter, 4th of July, Labor Day, Thanksgiving, Christmas Eve/Day, New Year’s Eve/Day</em></p>
+        
+        <h3>Boarding</h3>
+        <p>Our boarding is limited.  Please contact us for more information.</p>
+        <p>
+          
+        </p>
+      </div>
+      <div class="span6">
+        <h3>FAQ</h3>
+        <dl>
+          <dt>What vaccinations does my dog require?</dt>
+          <dd>Bordatella, Rabies & Distemper</dd>
+
+          <dt>Does my pet need to be spayed/neutered?</dt>
+          <dd>Yes.</dd>
+
+          <dt>Will my pet be alone overnight?</dt>
+          <dd>Not when boarding at our location. Staff will be present from 9 pm until 7 am.</dd>
+
+          <dt>What should I bring for boarding?</dt>
+          <dd>We provide toys, bedding/kennel, complimentary snacks and dinner if appropriate. If your pet has special dietary needs we can discuss this at our meet n’ greet.</dd>
+
+          <dt>Will you administer medication?</dt>
+          <dd>We will administer pills in pill pocket form, anything else will need to be discussed prior to boarding.</dd>
+
+          <dt>Is potty trained required for boarding?</dt>
+          <dd>It is not a necessity but is highly suggested. Staff can discuss routines with you at Meet and Greet.</dd>
+
+          <dt>When will i meet my sitter?</dt>
+          <dd>After completion of pet survey, sitter will contact you to set up Meet and Greet.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <!-- REACH US -->
+    <div class="page-header" id="reach-us">
+      <h1>Reach Us <small>(512) 693-7020</small></h1>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <form class="form-horizontal" id="contact-form">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label" for="input01">Name</label>
+              <div class="controls">
+                <input type="text" name="name" class="input-xlarge" id="input01" />
+              </div>
+            </div>
+            
+            <div class="control-group">
+              <label class="control-label" for="input02">Email</label>
+              <div class="controls">
+                <input type="text" name="email" class="input-xlarge" id="input02" />
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="input03">Subject</label>
+              <div class="controls">
+                <input type="text" name="subject" class="input-xlarge" id="input03" />
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="input04">Message</label>
+              <div class="controls">
+                <textarea name="message" class="input-xlarge" id="input04" rows="5"></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-success" id="form-submit"><i class="icon-envelope icon-white"></i> Send</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <!-- ABOUT US -->
     <div class="page-header" id="about-us">
       <h1>More About Us</h1>
     </div>
@@ -86,12 +188,6 @@
       <div class="span4 center">
           <img src="{{ STATIC_URL }}img/profiles/sarah/doglady-3.jpg" />
       </div>
-    </div>
-    <div class="page-header" id="pet-sitting">
-      <h1>Pet Sitting</h1>
-    </div>
-    <div class="page-header" id="gallery">
-      <h1>Gallery</h1>
     </div>
   </div>
 </body>
