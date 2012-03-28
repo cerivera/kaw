@@ -23,3 +23,11 @@ img {
 .center{
     text-align: center;
 }
+
+.hide{
+    display: none;
+}
+
+body{
+    padding-bottom: 30px;
+}

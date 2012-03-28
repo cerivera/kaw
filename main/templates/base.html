@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/kaw.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/kaw.js"></script>
 </head>
 <body>
   <div class="navbar navbar-fixed-top">
@@ -132,6 +133,7 @@
     <div class="row">
       <div class="span12">
         <form class="form-horizontal" id="contact-form">
+          {% csrf_token %}
           <fieldset>
             <div class="control-group">
               <label class="control-label" for="input01">Name</label>
@@ -166,6 +168,9 @@
             </div>
           </fieldset>
         </form>
+        <div class="alert alert-success hide email-success">
+          Email sent!
+        </div>
       </div>
     </div>
 
@@ -188,6 +193,9 @@
       <div class="span4 center">
           <img src="{{ STATIC_URL }}img/profiles/sarah/doglady-3.jpg" />
       </div>
+    </div>
+    <div class="page-header">
+      <p class="pull-right"><a href="#">Back to top</a></p>
     </div>
   </div>
 </body>

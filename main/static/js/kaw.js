@@ -6,12 +6,10 @@ $(function () {
         var input_message = $('input[name=message]').val();
         var response_text = $('#response');
         var csrf = $('input[name=csrfmiddlewaretoken]').val();
-        response_text.hide();
-
-        response_text.html('Sending...').show();
-
         $.post('/cform_submit/', {name:input_name, email:input_email, subject:input_subject, message:input_message, csrfmiddlewaretoken: csrf}, function (data) {
             $('#contact-form').get(0).reset();
+            $('.email-success').fadeIn();
+            setTimeout(function(){$('.email-success').fadeOut()}, 2000);
         });
 
         return false;
