@@ -7,10 +7,11 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/kaw.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/kaw.js"></script>
 </head>
-<body>
-  <div class="navbar navbar-fixed-top">
+<body data-spy="scroll">
+  <div class="navbar navbar-fixed-top" id="navbar">
     <div class="navbar-inner">
       <div class="container">
         <a class="brand" href="#">
@@ -198,5 +199,10 @@
       <p class="pull-right"><a href="#">Back to top</a></p>
     </div>
   </div>
+  <script>
+    $(document).ready(function(){
+        $('#navbar').scrollspy()
+    });
+  </script>
 </body>
 </html>
