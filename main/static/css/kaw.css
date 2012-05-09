@@ -31,3 +31,7 @@ img {
 body{
     padding-bottom: 30px;
 }
+
+.carousel{
+    background-color: #000000;
+}
