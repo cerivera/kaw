@@ -15,11 +15,10 @@ def cform_submit(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            subject = form.cleaned_data['subject']
             message = form.cleaned_data['message']
             name = form.cleaned_data['name']
             from_email = form.cleaned_data['email']
-            send_mail(name + ': ' + subject, message + ' - ' + from_email, from_email, [settings.INFO_EMAIL])
+            send_mail(name, message + ' - ' + from_email, from_email, [settings.INFO_EMAIL])
             return HttpResponse("Thanks!", content_type="text/plain")
 
     return HttpResponse("")
