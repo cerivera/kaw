@@ -10,5 +10,7 @@ class PetAdmin(admin.ModelAdmin):
 class AddressAdmin(admin.ModelAdmin):
     list_display = ('type')
 
-admin.site.register(Client, ClientAdmin, Address, AddressAdmin, Pet, PetAdmin)
+admin.site.register(Client, ClientAdmin)
+admin.site.register(Address, AddressAdmin)
+admin.site.register(Pet, PetAdmin)
 
