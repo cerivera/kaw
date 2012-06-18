@@ -1,4 +1,5 @@
 *.pyc
 settings_local.py
 static/*
-.idea/
+.idea/*
+settings.py
