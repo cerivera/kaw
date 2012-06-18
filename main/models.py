@@ -3,9 +3,9 @@ from django.utils.translation import ugettext_lazy as _
 
 class Address(models.Model):
     TYPES_CHOICES = (
-        ('HOME', u('Home')),
-        ('WORK', u('Work')),
-        ('OTHER', u('Other'))
+        ('HOME', _('Home')),
+        ('WORK', _('Work')),
+        ('OTHER', _('Other'))
         )
 
     type = models.CharField(_('Type'), maxlength=20, choices = TYPES_CHOICES)
