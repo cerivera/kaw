@@ -1,6 +1,20 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
+
+class Client(models.Model):
+    first_name = models.CharField(_('First name'), max_length=30)
+    last_name = models.CharField(_('Last name'), max_length=30)
+    email = models.EmailField(_('Email'))
+    phone_number = models.CharField(_('Phone number'), max_length = 30, blank = True)
+    client_since = models.DateField(_('Client since'), auto_now=True)
+
+    def __unicode__(self):
+        return _("%s %s") % (self.first_name, self.last_name)
+
+    class Admin:
+        pass
+
 class Address(models.Model):
     TYPES_CHOICES = (
         ('HOME', _('Home')),
@@ -26,13 +40,13 @@ class Pet(models.Model):
     TYPES_CHOICES = (
         ('DOG', _('Dog')),
         ('CAT', _('Cat'))
-    )
+        )
 
     ATTITUDE_CHOICES = (
         ('FRIENDLY', _('Friendly')),
         ('AGGRESSIVE', _('Aggressive')),
         ('BIPOLAR', _('Bipolar'))
-    )
+        )
 
     type = models.CharField(_('Type'), max_length=20, choices = TYPES_CHOICES)
     name = models.CharField(_('Name'), max_length = 50, blank = True)
@@ -43,19 +57,6 @@ class Pet(models.Model):
 
     def __unicode__(self):
         return self.name
-
-    class Admin:
-        pass
-
-class Client(models.Model):
-    first_name = models.CharField(_('First name'), max_length=30)
-    last_name = models.CharField(_('Last name'), max_length=30)
-    email = models.EmailField(_('Email'))
-    phone_number = models.CharField(_('Phone number'), max_length = 30, blank = True)
-    client_since = models.DateField(_('Client since'), auto_now=True)
-
-    def __unicode__(self):
-        return _("%s %s") % (self.first_name, self.last_name)
 
     class Admin:
         pass
