@@ -18,6 +18,9 @@ class Address(models.Model):
     def __unicode__(self):
         return self.type
 
+    class Admin:
+        pass
+
 class Pet(models.Model):
     TYPES_CHOICES = (
         ('DOG', _('Dog')),
@@ -32,6 +35,9 @@ class Pet(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Admin:
+        pass
+
 class Client(models.Model):
     first_name = models.CharField(_('First name'), max_length=30)
     last_name = models.CharField(_('Last name'), max_length=30)
@@ -42,3 +48,7 @@ class Client(models.Model):
 
     def __unicode__(self):
         return _("%s %s") % (self.first_name, self.last_name)
+
+    class Admin:
+        pass
+
