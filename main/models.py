@@ -8,7 +8,7 @@ class Address(models.Model):
         ('OTHER', _('Other'))
         )
 
-    type = models.CharField(_('Type'), maxlength=20, choices = TYPES_CHOICES)
+    type = models.CharField(_('Type'), max_length=20, choices = TYPES_CHOICES)
 
     first_name = models.CharField(_('First name'), max_length = 50, blank = True)
     last_name = models.CharField(_('Last name'), max_length = 50, blank = True)
@@ -25,7 +25,7 @@ class Pet(models.Model):
         ('CAT', u('Cat'))
     )
 
-    type = models.CharField(_('Type'), maxlength=20, choices = TYPES_CHOICES)
+    type = models.CharField(_('Type'), max_length=20, choices = TYPES_CHOICES)
     name = models.CharField(_('Name'), max_length = 50, blank = True)
     birthday = models.DateField(_('Birthday'))
     note = models.TextField(_('Notes'))
