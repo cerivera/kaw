@@ -53,7 +53,7 @@ class Pet(models.Model):
     birthday = models.DateField(_('Birthday'))
     note = models.TextField(_('Notes'))
     owner = models.ForeignKey(Client)
-    attitude = models.CharField(_('Attitude'), choices = ATTITUDE_CHOICES)
+    attitude = models.CharField(_('Attitude'), max_length=20, choices = ATTITUDE_CHOICES)
 
     def __unicode__(self):
         return self.name
