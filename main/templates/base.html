@@ -122,7 +122,7 @@
                 <dt>Is potty trained required for boarding?</dt>
                 <dd>It is not a necessity but is highly suggested. Staff can discuss routines with you at Meet and Greet.</dd>
 
-                <dt>When will i meet my sitter?</dt>
+                <dt>When will i meet dev1.sitter?</dt>
                 <dd>After completion of pet survey, sitter will contact you to set up Meet and Greet.</dd>
             </dl>
         </div>
@@ -131,7 +131,7 @@
     <!-- GALLERY -->
     <div class="row" id="gallery">
         <div class="span12">
-            <div id="myCarousel" class="carousel slide">
+            <div id="dev1.arousel" class="carousel slide">
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item">
@@ -202,8 +202,8 @@
                     </div>
                 </div>
                 <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                <a class="carousel-control left" href="#dev1.arousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#dev1.arousel" data-slide="next">&rsaquo;</a>
             </div>
         </div>
     </div>
@@ -241,6 +241,7 @@
 
                     <div class="form-actions">
                         <button type="submit" class="btn btn-success" id="form-submit"><i class="icon-envelope icon-white"></i> Send</button>
+                        <button name="Load OneID Profile" type="button" onClick="OneIdForm.fill(myAttributeMap, '', 'PASSWORD')"> Load OneID </button>
                     </div>
                 </fieldset>
             </form>
@@ -274,11 +275,27 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
     </div>
 </div>
+<script src="https://dev1.oneid.com/api/js/includeexternal.js" type="text/javascript"></script>
+<script src="https://dev1.oneid.com/api/form/form.js" type="text/javascript"></script>
 <script>
     $(document).ready(function(){
         $('#navbar').scrollspy()
         $('.carousel').carousel({interval : 5000})
     });
+
+    var myAttributeMap = {
+        "formData" : {
+            "input01" : {
+                "oneid_attribute" : ["personal_info[first_name], persnal_info[last_name]"],
+                "format" : "data['personal_info[first_name]'] + \" \" + data['personal_info[last_name]']",
+                "selector_type" : "id"
+            },
+            "input02" : {
+                "oneid_attribute" : ["personal_info[email]"],
+                "selector_type" : "id"
+            }
+        }
+    };
 </script>
 </body>
 </html>
