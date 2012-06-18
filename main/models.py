@@ -14,6 +14,7 @@ class Address(models.Model):
     zipcode = models.CharField(_('ZIP code'), max_length = 5, blank = True)
     city = models.CharField(_('City'), max_length = 100, blank = True)
     state = models.CharField(_('State'), max_length = 100, blank = True)
+    client = models.ForeignKey(Client)
 
     def __unicode__(self):
         return self.type
@@ -27,10 +28,18 @@ class Pet(models.Model):
         ('CAT', _('Cat'))
     )
 
+    ATTITUDE_CHOICES = (
+        ('FRIENDLY', _('Friendly')),
+        ('AGGRESSIVE', _('Aggressive')),
+        ('BIPOLAR', _('Bipolar'))
+    )
+
     type = models.CharField(_('Type'), max_length=20, choices = TYPES_CHOICES)
     name = models.CharField(_('Name'), max_length = 50, blank = True)
     birthday = models.DateField(_('Birthday'))
     note = models.TextField(_('Notes'))
+    owner = models.ForeignKey(Client)
+    attitude = models.CharField(_('Attitude'), choices = ATTITUDE_CHOICES)
 
     def __unicode__(self):
         return self.name
@@ -43,8 +52,7 @@ class Client(models.Model):
     last_name = models.CharField(_('Last name'), max_length=30)
     email = models.EmailField(_('Email'))
     phone_number = models.CharField(_('Phone number'), max_length = 30, blank = True)
-    address = models.ForeignKey(Address)
-    pet = models.ForeignKey(Pet)
+    client_since = models.DateField(_('Client since'), auto_now=True)
 
     def __unicode__(self):
         return _("%s %s") % (self.first_name, self.last_name)
