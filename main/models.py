@@ -21,8 +21,8 @@ class Address(models.Model):
 
 class Pet(models.Model):
     TYPES_CHOICES = (
-        ('DOG', u('Dog')),
-        ('CAT', u('Cat'))
+        ('DOG', _('Dog')),
+        ('CAT', _('Cat'))
     )
 
     type = models.CharField(_('Type'), max_length=20, choices = TYPES_CHOICES)
