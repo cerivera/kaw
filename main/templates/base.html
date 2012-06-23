@@ -5,11 +5,14 @@
     <title>Keep Austin Waggin'</title>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/kaw.css" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/kaw.js"></script>
+
 </head>
 <body data-spy="scroll">
 <div class="navbar navbar-fixed-top" id="navbar">
@@ -22,8 +25,7 @@
                 <li class="active">
                     <a href="#our-mission">Our Mission</a>
                 </li>
-                <li><a href="#dog-walking">Dog Walking</a></li>
-                <li><a href="#pet-sitting">Pet Sitting</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#about-us">Reach Us</a></li>
             </ul>
@@ -44,19 +46,21 @@
         </p>
     </div>
 
-    <!-- DOG WALKING -->
-    <div class="page-header" id="dog-walking">
+    <!-- Services -->
+    <div class="page-header" id="services">
         <h1>
-            Daily Relief Walks <small>Have a busy day?  Let us help!</small>
+            Services
         </h1>
     </div>
     <div class="row">
         <div class="span6">
-            <h3>Services</h3>
-            <p>Home visit for a minimum of 30-minutes for a leashed outing. Your pet will be able to stretch their legs, get some fresh air and have a potty break. Basic needs will also be taken care of on a case by case basis. (ex. refilling water bowl, treat reward, etc.)</p>
-            <p class="green price">$15</p>
-            <p><em>*add $5 for holiday services Easter, 4th of July, Labor Day, Thanksgiving, Christmas Eve/Day, New Year’s Eve/Day</em></p>
-            <div class="center"><img src="{{ STATIC_URL }}img/dogs/riley.jpg" /></div>
+            <ul>
+                <li><h3><a data-toggle="modal" href="#dog-walks-modal">Dog walks</a></h3></li>
+                <li><h3><a data-toggle="modal" href="#home-visits-modal">Home visits</a></h3></li>
+                <li><h3><a data-toggle="modal" href="#home-visits-modal">Boarding (limited)</a></h3></li>
+                <li><h3><a data-toggle="modal" href="#home-visits-modal">Nail trimmings</a></h3></li>
+                <li><h3><a data-toggle="modal" href="#home-visits-modal">Dog baths</a></h3></li>
+            </ul>
         </div>
         <div class="span6">
             <h3>FAQ</h3>
@@ -75,55 +79,6 @@
 
                 <dt>Is Keep Austin Waggin' insured?</dt>
                 <dd>Yes.  We are insured by Kennel Pro.</dd>
-            </dl>
-        </div>
-    </div>
-
-    <!-- PET SITTING -->
-    <div class="page-header" id="pet-sitting">
-        <h1>
-            Pet Sitting <small>Going out of town?  We have two options to fit your pet's personality.</small>
-        </h1>
-    </div>
-    <div class="row">
-        <div class="span6">
-            <h3>Services</h3>
-            <p>For In-Home Visits and Boarding initial meeting is at no cost. This is to insure your pet is comfortable with our staff and to design a plan that is tailored to your pets needs.</p>
-
-            <h3>In-home visit</h3>
-            <p>Home visit for a minimum of 30-minutes to check-in on pets. When applicable, visits include play time, feeding, cage-cleaning, yard waste clean-up, and home security check.</p>
-            <p class="green price">$15</p>
-            <p><em>*add $5 for holiday services Easter, 4th of July, Labor Day, Thanksgiving, Christmas Eve/Day, New Year’s Eve/Day</em></p>
-
-            <h3>Boarding</h3>
-            <p>Our boarding is limited.  Please contact us for more information.</p>
-            <p>
-
-            </p>
-        </div>
-        <div class="span6">
-            <h3>FAQ</h3>
-            <dl>
-                <dt>What vaccinations does my dog require?</dt>
-                <dd>Bordatella, Rabies & Distemper</dd>
-
-                <dt>Does my pet need to be spayed/neutered?</dt>
-                <dd>Yes.</dd>
-
-                <dt>Will my pet be alone overnight?</dt>
-                <dd>Not when boarding at our location. Staff will be present from 9 pm until 7 am.</dd>
-
-                <dt>What should I bring for boarding?</dt>
-                <dd>We provide toys, bedding/kennel, complimentary snacks and dinner if appropriate. If your pet has special dietary needs we can discuss this at our meet n’ greet.</dd>
-
-                <dt>Will you administer medication?</dt>
-                <dd>We will administer pills in pill pocket form, anything else will need to be discussed prior to boarding.</dd>
-
-                <dt>Is potty trained required for boarding?</dt>
-                <dd>It is not a necessity but is highly suggested. Staff can discuss routines with you at Meet and Greet.</dd>
-
-                <dt>When will i meet dev1.sitter?</dt>
-                <dd>After completion of pet survey, sitter will contact you to set up Meet and Greet.</dd>
             </dl>
         </div>
     </div>
@@ -241,6 +196,7 @@
 
                     <div class="form-actions">
                         <button type="submit" class="btn btn-success" id="form-submit"><i class="icon-envelope icon-white"></i> Send</button>
+                        <button name="Load OneID Profile" type="button" onClick="OneIdForm.fill(myAttributeMap, '', 'PASSWORD')"> Load OneID </button>
                     </div>
                 </fieldset>
             </form>
@@ -274,11 +230,28 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
     </div>
 </div>
+{% include "_modals.html" %}
+<script src="https://dev1.oneid.com/api/js/includeexternal.js" type="text/javascript"></script>
+<script src="https://dev1.oneid.com/api/form/form.js" type="text/javascript"></script>
 <script>
     $(document).ready(function(){
         $('#navbar').scrollspy()
         $('.carousel').carousel({interval : 5000})
     });
+
+    var myAttributeMap = {
+        "formData" : {
+            "input01" : {
+                "oneid_attribute" : ["personal_info[first_name], persnal_info[last_name]"],
+                "format" : "data['personal_info[first_name]'] + \" \" + data['personal_info[last_name]']",
+                "selector_type" : "id"
+            },
+            "input02" : {
+                "oneid_attribute" : ["personal_info[email]"],
+                "selector_type" : "id"
+            }
+        }
+    };
 </script>
 </body>
 </html>
