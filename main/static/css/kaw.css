@@ -15,9 +15,13 @@ img {
     color: #10A310;
 }
 
+.orange{
+    color: #FF6633;
+}
+
 .price{
     font-weight: bold;
-    font-size: 23px;
+    font-size: 18px;
 }
 
 .center{
@@ -34,4 +38,21 @@ body{
 
 .carousel{
     background-color: #000000;
+}
+
+td {
+    min-width: 150px;
+}
+
+td.right {
+    text-align: right;
+}
+
+div.notes {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+dl dt {
+    font-size: 15px;
 }
