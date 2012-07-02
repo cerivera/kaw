@@ -14,4 +14,9 @@ $(function () {
         return false;
     });
 
-});
+})
+
+function goToScroll(id){
+    $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+}
+
