@@ -17,6 +17,6 @@ $(function () {
 })
 
 function goToScroll(id){
-    $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+    $('html,body').animate({scrollTop: $("#"+id).offset().top-50},'slow');
 }
 

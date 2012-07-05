@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/kaw.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-scrollspy.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/kaw.js"></script>
 
@@ -24,11 +23,11 @@
 <div class="navbar navbar-fixed-top" id="navbar">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="#">
+            <a class="brand" href="javascript: void(0)" onclick="goToScroll('container')">
                 Keep Austin Waggin'
             </a>
             <ul class="nav">
-                <li class="active"><a href="javascript: void(0)" onclick="goToScroll('our-mission')">Our Mission</a></li>
+                <li><a href="javascript: void(0)" onclick="goToScroll('our-mission')">Our Mission</a></li>
                 <li><a href="javascript:void(0)" onclick="goToScroll('services');">Services</a></li>
                 <li><a href="javascript:void(0)" onclick="goToScroll('faq');">FAQ</a></li>
                 <li><a href="javascript:void(0)" onclick="goToScroll('gallery');">Gallery</a></li>
@@ -38,7 +37,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container" id="container">
     <div class="row header">
         <div class="span12">
             <img class="header-img" src="{{ STATIC_URL }}img/dogs/headers/chunk.png" />
@@ -318,12 +317,11 @@
         </div>
     </div>
     <div class="page-header">
-        <p class="pull-right"><a href="javascript:void(0)" onclick="goToScroll('our-mission')">Back to top</a></p>
+        <p class="pull-right"><a href="javascript:void(0)" onclick="goToScroll('container')">Back to top</a></p>
     </div>
 </div>
 <script>
     $(document).ready(function(){
-        $('#navbar').scrollspy()
         $('.carousel').carousel({interval : 5000})
     });
 </script>
