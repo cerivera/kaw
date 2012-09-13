@@ -56,3 +56,17 @@ div.notes {
 dl dt {
     font-size: 15px;
 }
+
+.third-party {
+    margin-left: 40px;
+}
+
+.third-party div{
+    margin-bottom: 20px;
+
+}
+
+#contact-form{
+    margin-top: 50px;
+}
+
